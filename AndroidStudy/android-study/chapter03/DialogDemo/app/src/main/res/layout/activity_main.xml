@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btn_alert_dlg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="普通Dialog"
+        android:textAllCaps="false"
+        android:onClick="click"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn_multi_dlg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="多按钮Dialog"
+        android:textAllCaps="false"
+        android:onClick="click"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_alert_dlg" />
+
+    <Button
+        android:id="@+id/btn_list_dlg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="列表Dialog"
+        android:textAllCaps="false"
+        android:onClick="click"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_multi_dlg" />
+
+    <Button
+        android:id="@+id/btn_radio_dlg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="单选Dialog"
+        android:onClick="click"
+        android:textAllCaps="false"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_list_dlg" />
+
+    <Button
+        android:id="@+id/btn_checkbox_dlg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="复选Dialog"
+        android:onClick="click"
+        android:textAllCaps="false"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_radio_dlg" />
+
+    <Button
+        android:id="@+id/btn_date_dlg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="日期Dialog"
+        android:onClick="click"
+        android:textAllCaps="false"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_checkbox_dlg" />
+
+    <Button
+        android:id="@+id/btn_time_dlg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="时间Dialog"
+        android:onClick="click"
+        android:textAllCaps="false"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_date_dlg" />
+
+    <Button
+        android:id="@+id/btn_custom_dlg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="click"
+        android:text="自定义Dialog"
+        android:textAllCaps="false"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_time_dlg" />
+
+    <Button
+        android:id="@+id/btn_dialog_fragment_logout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="DialogFragment对话框退出"
+        android:onClick="click"
+        android:textAllCaps="false"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_custom_dlg" />
+
+    <Button
+        android:id="@+id/btn_dialog_fragment_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="DialogFragment对话框登录"
+        android:onClick="click"
+        android:textAllCaps="false"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_dialog_fragment_logout" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

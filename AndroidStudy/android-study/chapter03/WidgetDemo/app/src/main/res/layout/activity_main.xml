@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@android:color/white"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:id="@+id/main_body"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/white">
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rv_content"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="8dp"
+                android:divider="#E4E4E4"
+                android:dividerHeight="1dp"
+                android:listSelector="#bababa" />
+        </FrameLayout>
+    </LinearLayout>
+
+    <RadioGroup
+        android:id="@+id/btn_group"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_alignParentBottom="true"
+        android:background="#F2F2F2"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/btn_course"
+            style="@style/TabMenuItem"
+            android:drawableTop="@drawable/selector_nav_course"
+            android:text="课程" />
+
+        <RadioButton
+            android:id="@+id/btn_execise"
+            style="@style/TabMenuItem"
+            android:checked="true"
+            android:drawableTop="@drawable/selector_nav_execise"
+            android:text="习题" />
+
+        <RadioButton
+            android:id="@+id/btn_message"
+            style="@style/TabMenuItem"
+            android:drawableTop="@drawable/selector_nav_message"
+            android:text="资讯" />
+
+        <RadioButton
+            android:id="@+id/btn_my"
+            style="@style/TabMenuItem"
+            android:drawableTop="@drawable/selector_nav_my"
+            android:text="我" />
+    </RadioGroup>
+
+</LinearLayout>

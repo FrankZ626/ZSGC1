@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:columnCount="4"
+    android:rowCount="3"
+    android:orientation="vertical" >
+    <ImageView
+        android:layout_column="0"
+        android:layout_row="0"
+        android:layout_rowSpan="2"
+        android:layout_gravity="start|top"
+        android:src="@mipmap/ic_launcher_round" />
+    <TextView
+        android:layout_margin="8dp"
+        android:layout_column="1"
+        android:layout_row="0"
+        android:layout_gravity="center_horizontal|top"
+        android:text="第1行第2列" />
+    <TextView
+        android:layout_margin="8dp"
+        android:layout_column="2"
+        android:layout_row="0"
+        android:layout_gravity="center_horizontal|end"
+        android:text="第1行第3列" />
+    <TextView
+        android:layout_margin="8dp"
+        android:layout_column="1"
+        android:layout_row="1"
+        android:layout_gravity="bottom|start"
+        android:text="第2行第1列" />
+    <TextView
+        android:layout_margin="8dp"
+        android:layout_column="2"
+        android:layout_row="1"
+        android:layout_gravity="bottom|end"
+        android:text="第2行第2列" />
+</GridLayout>

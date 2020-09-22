@@ -1,0 +1,41 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "com.mobiledev.server",
+      "nativeLanguage": "zh-cn"
+    },
+    "jhipsterVersion": "6.10.1",
+    "applicationType": "monolith",
+    "baseName": "courseDemoServer",
+    "packageName": "com.mobiledev.server",
+    "packageFolder": "com/mobiledev/server",
+    "serverPort": "8080",
+    "authenticationType": "jwt",
+    "cacheProvider": "no",
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "mysql",
+    "prodDatabaseType": "mysql",
+    "searchEngine": false,
+    "messageBroker": false,
+    "serviceDiscoveryType": false,
+    "buildTool": "maven",
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "ZWRhODY3YzE1MTU1YmQyMDM0YjFkM2VjY2ZhMzcyODU0ODU1OGFiMGZlZDA3MTAwNzhlODdiZDA3NGMwYmViYzE2NWM4ZDRhNjBhMWZiYmZjODgwODg1NzhmNzllNDUxOGRiMDEyMmJkNzI1ODE2ZGE0ZjUxOTEwNGVmYjIzYmU=",
+    "embeddableLaunchScript": false,
+    "useSass": true,
+    "clientPackageManager": "npm",
+    "skipClient": true,
+    "creationTimestamp": 1600343038765,
+    "testFrameworks": [],
+    "jhiPrefix": "jhi",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [],
+    "enableTranslation": true,
+    "nativeLanguage": "zh-cn",
+    "languages": ["zh-cn"],
+    "blueprints": [],
+    "reactive": true
+  }
+}

@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">仿微信</string>
+
+    <string name="btn_weixin">微信</string>
+    <string name="btn_address">通讯录</string>
+    <string name="btn_find">发现</string>
+    <string name="btn_me">我</string>
+
+    <string name="menu_talk">发起群聊</string>
+    <string name="menu_find">添加朋友</string>
+    <string name="menu_sweep">扫一扫</string>
+    <string name="menu_feedback">首付款</string>
+    <string name="menu_address">添加通讯录</string>
+
+    <string name="toolbar_search">查找</string>
+    <string name="toolbar_add">添加</string>
+
+    <string name="wechat_fragment">微信Fragment</string>
+    <string name="address_fragment">通讯录Fragment</string>
+    <string name="find_fragment">发现Fragment</string>
+    <string name="me_fragment">我Fragment</string>
+
+</resources>
